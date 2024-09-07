@@ -1,0 +1,182 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.main {
+    background-image: url("Assests/Images/BG.jpg");
+    height: 100vh;
+    position: relative;
+    background-size: max(1000px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main .box{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+nav {
+    display: flex;
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+nav img {
+    height: 100px;
+    width: 150px;
+}
+
+
+
+.hero {
+    height: calc(100% - 105px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: sans-serif;
+    color: white;
+    gap: 25px;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperator {
+    height: 7px;
+    background-color: rgb(36, 36, 36);
+}
+
+.btn {
+    background-color: rgba(0, 0, 0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 8px 25px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    color: white;
+}
+
+.btn-sm{
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 35px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.main input{
+    background-color: rgba(0, 0, 0,0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 15px 100px 15px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    color: white;
+}
+
+.first{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 35vw;
+    position: relative;
+    z-index: 1;
+}
+.secimg video{
+    position: absolute;
+    top: 88px;
+    right: 82px;
+    width: 26vw;
+}
+section.first> div :first-child{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px 20px 20px 0px;
+}
+
+section.first> div :nth-child(2){
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 350;
+}
+
+.second{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+}
+section.second> div :first-child{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px 20px 20px 0px;
+}
+
+section.second> div :nth-child(2){
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 350;
+}
+
+.secvid img{
+    width: 75vh;
+}
+
+
