@@ -35,27 +35,15 @@ To get started with the Netflix Clone, follow these steps:
 
 1.  **Clone the Repository:**
     
-    bash
-    
-    Copy code
-    
     `git clone https://github.com/yourusername/netflix-clone.git` 
     
 2.  **Navigate to the Project Directory:**
-    
-    bash
-    
-    Copy code
     
     `cd netflix-clone` 
     
 3.  **Open the Project in Your Browser:**
     
     You can open `index.html` in any modern web browser (e.g., Chrome, Firefox, Safari).
-    
-    bash
-    
-    Copy code
     
     `open index.html` 
     
@@ -88,7 +76,7 @@ Contact
 
 If you have any questions or feedback, feel free to reach out:
 
-*   **Email:** your-email@example.com
-*   **GitHub:** [yourusername](https://github.com/yourusername)
+*   **Email:** mayurhegde11@gmail.com
+*   **GitHub:** [yourusername](https://github.com/Mayuurrr)
 
 Thank you for checking out the Netflix Clone project!
