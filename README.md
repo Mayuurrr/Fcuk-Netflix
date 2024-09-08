@@ -77,6 +77,6 @@ Contact
 If you have any questions or feedback, feel free to reach out:
 
 *   **Email:** mayurhegde11@gmail.com
-*   **GitHub:** [yourusername](https://github.com/Mayuurrr)
+*   **GitHub:** [Mayuurrr](https://github.com/Mayuurrr)
 
 Thank you for checking out the Netflix Clone project!
